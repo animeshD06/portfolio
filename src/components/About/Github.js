@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
+import { GitHubCalendar } from "react-github-calendar";
 import { Row } from "react-bootstrap";
 
 function Github() {
@@ -16,10 +16,10 @@ function Github() {
       </h1>
       <GitHubCalendar
         username="animeshD06"
-        blockSize={30}
-        blockMargin={10}
+        blockSize={15}
+        blockMargin={5}
         color="#c084f5"
-        fontSize={20}
+        fontSize={15}
       />
     </Row>
   );
